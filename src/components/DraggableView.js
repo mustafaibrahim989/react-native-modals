@@ -214,7 +214,7 @@ export default class DraggableView extends Component<Props> {
 
     return (
       <Animated.View
-        {...this.panResponder.panHandlers}
+//         {...this.panResponder.panHandlers}
         style={style}
       >
         {content}
